@@ -1,5 +1,6 @@
-import base64
+import webbrowser
+import time
 
-encoded_code = "aW1wb3J0IHdlYmJyb3dzZXIKaW1wb3J0IHRpbWUKcHJpbnQoIlZlcmlsZXIgecSfa2xlbml5b3IuLi4iKQp0aW1lLnNsZWVwKDIpCnByaW50KCJCYcWfbGFudMSxIGt1cnVsdXlvci4uLiIpCnRpbWUuc2xlZXAoMSkKdXJsID0gImh0dHBzOi8veC5jb20vc2VyaGF0a2FyYV8yNSIKd2ViYnJvd3Nlci5vcGVuKHVybCkK"
-
-exec(base64.b64decode(encoded_code))
+print("Çok başarılı bir tespit!")
+time.sleep(1)
+webbrowser.open("https://pastebin.pl/view/1e907ef8")
